@@ -55,6 +55,7 @@ with open(output_file_name, 'w', encoding='utf-8') as output_file, \
             except Exception as err:
                 print(err)
                 print('Bad text', clean_txt)
+                print('Problematic folder', dir_item)
                 post_text = ''
         else:
             post_text = post_original_text
