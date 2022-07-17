@@ -131,3 +131,4 @@ dmypy.json
 
 # Personal config
 config.json
+out/
