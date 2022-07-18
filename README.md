@@ -13,6 +13,7 @@ Don't forget a tesseract.exe location
   "language": "original_language_pytesseract_format",
   "srcLanguage": "original_language_google_translate_format",
   "dstLanguage": "destination_language_google_translate_format",
+  "openAiToken": "tokenToUseWithGPT3",
   "textFixes": {
     "original_phrase": "fixed_phrase",
     "original_phrase2": "fixed_phrase2",
