@@ -14,7 +14,7 @@ dst_lang = config.get('dstLanguage', None)
 fixes = config.get('textFixes', None)
 translator = Translator()
 
-should_translate = src_lang is not None and dst_lang is not None and fixes is not None
+should_translate = src_lang is not None and dst_lang is not None
 
 
 images_directory = os.path.join('out', config['profileName'])
