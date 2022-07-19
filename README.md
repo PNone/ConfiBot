@@ -5,7 +5,9 @@ To run, make sure to:
 create a config.json file with the name of the profile you want to download from,
 and your instagram credentials in it:
 Don't forget a tesseract.exe location
-`json
+You can also fix and translate the results.
+Use a gpt3 token to generate more data.
+```
 {
   "username": "Your Instagram username",
   "password": "Your Instagram password",
@@ -21,7 +23,7 @@ Don't forget a tesseract.exe location
     ...
   }
 }
-`
+```
 run:
 pip install -r requirements.txt
 
