@@ -5,10 +5,11 @@ To run, make sure to:
 create a config.json file with the name of the profile you want to download from,
 and your instagram credentials in it:
 Don't forget a tesseract.exe location
+`json
 {
-  "username": "Your username",
-  "password": "Your password",
-  "profileName": "profile_to_fetch_from",
+  "username": "Your Instagram username",
+  "password": "Your Instagram password",
+  "profileName": "instagram_profile_to_fetch_from",
   "tesseractExec": "absolutePathToExec",
   "language": "original_language_pytesseract_format",
   "srcLanguage": "original_language_google_translate_format",
@@ -20,7 +21,7 @@ Don't forget a tesseract.exe location
     ...
   }
 }
-
+`
 run:
 pip install -r requirements.txt
 
